@@ -1,9 +1,22 @@
 const CACHE_NAME = 'mi-cache-v1';
 const urlsToCache = [
- 
   'imagenes/hola.JPG',
-  // Agrega aquí todos los recursos que deseas almacenar en caché
-];
+  'imagenes/cachecodigo.JPG',
+  'imagenes/aprogresiva.JPG',
+  'imagenes/aplicacionesmoviles.JPG',
+  'imagenes/holapage.JPG',
+  'imagenes/imagenprueba.JPG',
+  'imagenes/manifest.JPG',
+  'imagenes/manifestheader.JPG',
+  'imagenes/manifestjson.JPG',
+  'imagenes/multiplataforma.JPG',
+  'imagenes/prueba1.JPG',
+  'imagenes/soa.JPG',
+  'imagenes/sw.JPG',
+  'imagenes/swcache.JPG',
+  'imagenes/www.JPG',
+  'imagenes/xamp.JPG',
+ ];
 
 self.addEventListener('install', event => {
   event.waitUntil(
